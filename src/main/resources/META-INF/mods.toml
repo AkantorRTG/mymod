@@ -1,0 +1,27 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[25,)" #mandatory (24 is current forge version)
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="onepiece" #mandatory
+version="1.13.2"
+displayName="Example Mod" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="examplemod.png" #optional
+credits="Thanks for this example mod goes to Java" #optional
+authors="Original401x"
+description="Owner: Original401x, and wishes the best"
+
+[[dependencies.onepiece]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[25,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.onepiece]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"
